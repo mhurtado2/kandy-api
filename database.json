@@ -47,12 +47,12 @@
         {
             "id": 1,
             "loyaltyNum": "85283",
-            "userId": 2
+            "userId": 1
         },
         {
             "id": 2,
             "loyaltyNum": "20224",
-            "userId": 1
+            "userId": 2
         },
         {
             "id": 3,
@@ -81,6 +81,13 @@
             "rate": 29.45,
             "userId": 6,
             "locationId": 2
+        }, 
+        {
+            "id": 4,
+            "startDate": "August 29, 2015",
+            "rate": 29.45,
+            "userId": 7,
+            "locationId": 3
         }
     ],
     "locations": [
@@ -102,29 +109,60 @@
     ],
     "products": [
         {
+            "id": 1,
+            "name": "Jaw-Breaker",
+            "categoryId": 1,
+            "price": "$2.00"
+        }, 
+        {
+            "id": 2,
+            "name": "Juicy Fruit",
+            "categoryId": 2,
+            "price": "$1.00"
+        }, 
+        {
             "id": 3,
-            "startDate": "May 29, 2010",
-            "rate": 29.45,
-            "userId": 6,
-            "locationId": 2
+            "name": "Hershey's Chocolate Bar",
+            "categoryId": 3,
+            "price": "$5.00"
+        }, 
+        {
+            "id": 4,
+            "name": "Coca Cola",
+            "categoryId": 4,
+            "price": "$3.00"
+        }, 
+        {
+            "id": 5,
+            "name": "Peppermints",
+            "categoryId": 1,
+            "price": "$2.00"
         }
     ],
     "productTypes": [
         {
+            "id": 1,
+            "type": "Hard Candy"
+        }, 
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+        {
             "id": 3,
-            "startDate": "May 29, 2010",
-            "rate": 29.45,
-            "userId": 6,
-            "locationId": 2
+            "type": "Chocolate"
+        }, 
+        {
+            "id": 4,
+            "type": "Soda"
         }
     ],
     "purchases": [
         {
-            "id": 3,
-            "startDate": "May 29, 2010",
-            "rate": 29.45,
-            "userId": 6,
-            "locationId": 2
+            "id": 1,
+            "userId": "May 29, 2010",
+            "productId": 29.45,
+            "numPuchased": 6
         }
     ]
 }
