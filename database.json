@@ -161,6 +161,18 @@
       "productTypeId": 3,
       "price": 1,
       "id": 9
+    },
+    {
+      "name": "Lemon Head",
+      "productTypeId": 1,
+      "price": 2,
+      "id": 10
+    },
+    {
+      "name": "Laura",
+      "productTypeId": 2,
+      "price": 2,
+      "id": 11
     }
   ],
   "productTypes": [
