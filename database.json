@@ -173,6 +173,12 @@
       "productTypeId": 2,
       "price": 2,
       "id": 11
+    },
+    {
+      "name": "yoo",
+      "productTypeId": 2,
+      "price": 8,
+      "id": 12
     }
   ],
   "productTypes": [
