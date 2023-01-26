@@ -41,6 +41,35 @@
       "fullName": "Jeremy Bakker",
       "isStaff": true,
       "id": 7
+    },
+    {
+      "fullName": "Joanna Wine",
+      "email": "bae@gmail.com",
+      "isStaff": true,
+      "id": 16
+    },
+    {
+      "fullName": "Shane Hurtado",
+      "isStaff": true,
+      "id": 18
+    },
+    {
+      "fullName": "Riley Moaw",
+      "email": "babe@gmail.com",
+      "isStaff": true,
+      "id": 19
+    },
+    {
+      "fullName": "Sara Wineshank",
+      "email": "woah@gmail.com",
+      "isStaff": true,
+      "id": 20
+    },
+    {
+      "fullName": "Kevin Bridges",
+      "email": "kevin1@gmail.com",
+      "isStaff": true,
+      "id": 21
     }
   ],
   "customers": [
@@ -88,22 +117,53 @@
       "rate": 29.45,
       "userId": 7,
       "locationId": 3
+    },
+    {
+      "locationId": 2,
+      "startDate": "september 4, 2021",
+      "rate": "13.00",
+      "userId": 18,
+      "id": 9
+    },
+    {
+      "locationId": 2,
+      "startDate": "October 11, 2023",
+      "rate": "10.00",
+      "userId": 19,
+      "id": 10
+    },
+    {
+      "locationId": 1,
+      "startDate": "2023-01-27",
+      "rate": "14.00",
+      "userId": 20,
+      "id": 11
+    },
+    {
+      "locationId": 1,
+      "startDate": "2023-01-09",
+      "rate": "13",
+      "userId": 21,
+      "id": 12
     }
   ],
   "locations": [
     {
-      "locationId": 1,
+      "id": 1,
+      "name": "Kandy-Korner East",
       "address": "2802 Zula Locks",
       "squareFootage": "9000 sqft"
     },
     {
-      "locationId": 2,
+      "id": 2,
       "address": "56849 Fadel Gateway",
+      "name": "Kandy-Korner North",
       "squareFootage": "2000 sqft"
     },
     {
-      "locationId": 3,
+      "id": 3,
       "address": "7346 Ritchie Road",
+      "name": "Kandy-Korner West",
       "squareFootage": "3000 sqft"
     }
   ],
